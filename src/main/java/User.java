@@ -5,6 +5,7 @@ public class User {
     private String Password;
     private String Address;
 
+    public User(String Name, String Email, String Username, String Password, String Address) {
         this.Name = Name;
         this.Email = Email;
         this.Username = Username;
@@ -12,11 +13,25 @@ public class User {
         this.Address = Address;
     }
 
-    public String getName () {return Name;}
-    public String getEmail () {return Email;}
-    public String getUsername () {return Username;}
-    public String getPassword () {return Password;}
-    public String getAddress() {return Address;}
+    public String getName() {
+        return Name;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public String getUsername() {
+        return Username;
+    }
+
+    public String getPassword() {
+        return Password;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
 
     public void setName(String Name) {
         this.Name = Name;
@@ -39,6 +54,7 @@ public class User {
     }
 
     public String toString() {
-        return String.format( "Name: %s , Email: %s, Username: %s, Password: %s, Address: %s", getName(), getEmail(), getUsername(), getPassword(), getAddress());
+        return String.format("Name: %s , Email: %s, Username: %s, Password: %s, Address: %s", getName(), getEmail(), getUsername(), getPassword(), getAddress());
     }
+}
 

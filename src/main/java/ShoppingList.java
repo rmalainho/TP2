@@ -6,7 +6,7 @@ public class ShoppingList {
     private String name;
     private User user;
     private User userlist;
-    
+
     private List<Product> productlist1 = new ArrayList<>();
     private List<Product> productlist2 = new ArrayList<>();
 
