@@ -7,11 +7,9 @@ public class ShoppingList {
     private User user;
     private User userlist;
 
-    //List
     private List<Product> productlist1 = new ArrayList<>();
     private List<Product> productlist2 = new ArrayList<>();
 
-    //List
     public void setProductlist1(List<Product> Productlist1) {
         productlist1 = Productlist1;
     }
