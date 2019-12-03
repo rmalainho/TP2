@@ -5,7 +5,6 @@ public class User {
     private String Password;
     private String Address;
 
-    public User(String Name, String Email, String Username, String Password, Address Address){
         this.Name = Name;
         this.Email = Email;
         this.Username = Username;
@@ -43,4 +42,3 @@ public class User {
         return String.format( "Name: %s , Email: %s, Username: %s, Password: %s, Address: %s", getName(), getEmail(), getUsername(), getPassword(), getAddress());
     }
 
-}
